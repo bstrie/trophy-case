@@ -58,6 +58,7 @@ cursive | [grapheme boundary correctness](https://github.com/gyscos/cursive/issu
 deflate-rs | [#40](https://github.com/image-rs/deflate-rs/issues/40) | afl | `logic`
 deflate-rs | [#42](https://github.com/image-rs/deflate-rs/issues/42) | afl | `logic`
 der-parser | [arithmetic overflow](https://github.com/rusticata/der-parser/issues/2) | libfuzzer | `arith`
+der | [arithmetic overflow leading to index out of bounds](https://github.com/RustCrypto/formats/pull/447) | libfuzzer | `arith`
 dhcp4r | [#6](https://github.com/krolaw/dhcp4r/issues/6) | libfuzzer | `oor`
 encoding_rs | [#44](https://github.com/hsivonen/encoding_rs/issues/44) | afl | `logic`
 exmex | [#8](https://github.com/bertiqwerty/exmex/issues/8) | honggfuzz | `arith`, `logic`
